@@ -18,7 +18,7 @@ function App() {
       <header>
         <div className="App__header">
           <h1>
-            <span>APADS</span>
+            <span>Emotions-Detector</span>
           </h1>
           <div className="App__switcher">
             <FontAwesomeIcon icon="camera" color={mode ? '#007c6c' : '#cccccc'} />
@@ -35,11 +35,11 @@ function App() {
       </header>
       <Camera photoMode={mode} />
       <p>
-        MADE WITH{' '}
+        Made With{' '}
         <span role="img" aria-label="heart-emoji">
-          ❤️
+          React-JS and Face-API.js  
         </span>{' '}
-        BY CPG179.
+          By Abhishek Thakur
       </p>
     </div>
   );
